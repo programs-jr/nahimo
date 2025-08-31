@@ -1,65 +1,43 @@
 body {
- background: linear-gradient(to bottom right, pink, #2999);
+ background: linear-gradient(to bottom right, #239089, #aaa7, #8de);
  margin: 0
 }
 
-.contenedor {
+.contenedor-principal {
  max-width: 100vw;
  height: 100vh;
  background-color: transparent;
  display: flex;
  flex-flow: column wrap;
- justify-content: space-evenly;
+ justify-content: center;
+ align-items: center;
 }
 
-.contenedor-cajas {
- max-width: 100vw;
- width: 100vw;
- height: auto;
- background-color: transparent;
+.flexbox {
+ width: 90%;
+ padding: 8px;
  display: flex;
  flex-flow: row wrap;
- justify-content: space-around;
- gap: 5px;
- padding: 30px 0;
+ justify-content: center;
+ align-items: center;
+ background-color: transparent;
+ gap: 40px;
 }
 
-.caja {
- max-width: 45vw;
- height: auto;
- background-color: white;
- border-radius: 12px;
- border: 3px solid black;
- margin: auto;
- order: 1
+.texto {
+ max-width: 380px;
+ background-color: white;;
+ padding: 10px;
+ text-align: center;
+ font-family: cursive;
+ font-size: 17px;
+ border-radius: 10px;
+ border: 3px solid #abd;
 }
 
 .video {
- width: 100%;
- height: auto;
-}
-
-.caja2 {
- width: 47vw;
- max-height: 50vh;
- min-height: 30vh;
- background-image: url("http://imgfz.com/i/IOcWDTz.jpeg");
- background-size: 100% 100%;
- border-radius: 12px;
- border: 3px solid black; 
- margin-left: 15px;
-}
-
-.tu {
- width: 90%;
- height: 85%;
- background-color: pink;
- color: white;
- margin: auto; 
- font-size: 26px;
- font-style: cursive;
- padding: 20px;
- text-align: justify;
- opacity: 0.82;
+ width: 360px;
  border-radius: 10px;
+ border: 3px solid #3e8481;
+}
 }
